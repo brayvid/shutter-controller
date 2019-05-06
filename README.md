@@ -1,4 +1,4 @@
-# Introductory shutter control
+# Basic shutter control
 An intervalometer is a remote control for a camera. It is a small computer that repeatedly tells the camera to open the shutter and how long to keep it open. An intervalometer is an essential tool for creating timelapses. Most intervalometers will allow the user to select any shutter speed and any interval within the model's particular limitations, but few will vary the shutter speed with each frame, a technique called bulb ramping. Bulb ramping is useful when the amount of ambient light is changing, such as sunrise or sunset.
 
 Shooting a timelapse at sunset in manual mode without bulb ramping: if the first few frames are well-exposed, subsequent frames quickly become underexposed.
@@ -19,7 +19,7 @@ Most DSLR or mirrorless cameras have an aperture-priority (Av) mode that can cop
    Flicker effect using auto-exposure
 </p>
 
-### Intermediate shutter control
+### Advanced off-the-shelf control
 High-end intervalometers usually can perform bulb ramping, but they will generally use a linear ramp, where the incremental change in exposure time is constant. A linear ramp can't keep up with the rate at which the ambient light changes during sunrise or sunset, which makes the final image brightness do this:
 
 <p align="center">
@@ -35,12 +35,12 @@ I tested a high-end intervalometer, a MIOPS Mobile Remote, and while it eliminat
    Observed bump with a linear ramp
 </p>
 
-### Advanced shutter control
+### Custom control
 I assumed that the ambient brightness after sunset follows an exponential curve consistent with astronomical data:
 ```
 BrightnessWithAngle[θ_,min_,max_,rate_]:=(max-min)Exp[-rate θ]+min
 ```
-Based on this assumption, I wrote some code in [this Mathematica notebook](https://github.com/brayvid/Timelapses/blob/master/better_ramp.nb) [[PDF](https://github.com/brayvid/Timelapses/blob/master/better_ramp.pdf)] that computes the sequence of exposure times required for the final timelapse to have constant brightness. 
+Based on this assumption, I wrote code in [this Mathematica notebook](https://github.com/brayvid/Timelapses/blob/master/better_ramp.nb) [[PDF](https://github.com/brayvid/Timelapses/blob/master/better_ramp.pdf)] that computes the sequence of exposure times required for the final timelapse to have constant brightness. 
 
 Here is an example scene brightness curve for sunset:
 
@@ -59,4 +59,28 @@ Here is a ramp function designed to compensate for the above decay. The paramete
   <img src="/img/plot4.png">
 </p>
 
-The variance of the resulting image brightness is very close to zero - the image brightness is constant (hypothetically). The task now is to develop an Arduino-based shutter controller that takes as arguments a list of exposure times and a few other parameters and fires the shutter accordingly.
+The task now is to develop an Arduino-based shutter controller that takes as arguments a list of exposure times and a few other parameters and fires the shutter accordingly.
+
+Here is a working Arduino-based prototype:
+
+<p align="center">
+  <img src="/img/prototype.png">
+</p>
+<p align="center">
+1) Arduino Uno R3; 2) Shutter release circuit (transistor, 2 resistors); 3) 2.5mm TRS adapter (autofocus line unused); 4) Shutter release cable with 2.5mm TRS connector; 5) Buttons for user input; 6) 4x7-segment display module
+</p>
+
+Here it is in action:
+
+<p align="left">
+  <img src="/img/prototype.gif">
+</p>
+
+While the image brightness is not constant (yet), there is a noticeable improvement in how long the light lasts for. More work is needed to exactly compensate for the changing environment.
+
+
+
+
+
+
+
