@@ -64,7 +64,7 @@ The task now is to develop an Arduino-based shutter controller that takes as arg
 Here is a working Arduino-based prototype:
 
 <p align="center">
-  <img src="/img/prototype.png">
+  <img src="/img/prototype.jpg">
 </p>
 <p align="center">
 1) Arduino Uno R3; 2) Shutter release circuit (transistor, 2 resistors); 3) 2.5mm TRS adapter (autofocus line unused); 4) Shutter release cable with 2.5mm TRS connector; 5) Buttons for user input; 6) 4x7-segment display module
