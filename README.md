@@ -6,7 +6,7 @@ I have long appreciated the art of timelapses. They can reveal motion in the wor
 ## Exposure problem
 In many environments, particularly those I want to record in, the ambient illumination changes during capture. Since I am most interested in making timelapses with a roughly constant apparent brightness, the camera's manual mode is not an option as it doesn't adapt to anything:
 <p align="center">
-  <img src="img/drastic.gif">
+  <img src="img/drastic.gif" width="100%">
     <p align="center">
    Manual mode
 </p>
@@ -17,7 +17,7 @@ Automatic exposure (AE) mode is also not viable because it causes the frames to 
 </br>
 
 <p align="center">
-  <img src="img/flicker.gif">
+  <img src="img/flicker.gif" width="100%">
   <p align="center">
    AE mode
 </p>
