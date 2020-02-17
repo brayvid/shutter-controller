@@ -4,7 +4,7 @@ I have long appreciated the art of the timelapse. They can reveal motion in the 
 
 One might think to use their camera’s automatic exposure mode to simplify the process, but this leads to a substantial drawback, oscillating exposure in the finished product:
 
-<p align="left">
+<p align="center">
   <img src="/img/flicker.gif">
 </p>
 <p align="center">
@@ -13,7 +13,7 @@ One might think to use their camera’s automatic exposure mode to simplify the 
 
 One may try to correct this by instead placing their camera in manual mode, so that each frame has identical exposure settings. But what if the environment brightness is itself changing? Say we start shooting a timelapse just before sunset and we expose the first frame properly. The frames are quickly going to become underexposed as the light level drops: 
 
-<p align="left">
+<p align="center">
   <img src="/img/drastic.gif">
 </p>
 <p align="center">
