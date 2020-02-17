@@ -1,6 +1,6 @@
 # Shutter Controller
 
-I have long appreciated the art of the timelapse. They can reveal motion in the world on timescales that are not normally perceptible like clouds forming and evaporating in the sky or the rotation of the Earth against the cosmos. In theory timelapses are simple enough to create: one only needs to capture a sequence of images and then stitch them together into the frames of a movie using freely available software. However one must also take the photographic parameters of shutter speed, ISO sensitivity and focal ratio (i.e. f-stop) into account.
+I have long appreciated the art of the timelapse. They can reveal motion in the world on timescales that are not normally perceptible like clouds forming and evaporating in the sky or the rotation of the Earth against the cosmos. In theory timelapses are simple enough to create: one only needs to capture a sequence of images and then stitch them together into the frames of a movie using freely available software. However one must also take into account the photographic parameters of shutter speed, ISO sensitivity and focal ratio (i.e. f-stop).
 
 One might think to use their camera’s automatic exposure mode to simplify the process, but this leads to a substantial drawback, oscillating exposure in the finished product:
 
@@ -11,7 +11,7 @@ One might think to use their camera’s automatic exposure mode to simplify the 
    Flicker with AE
 </p>
 
-One may try to correct this by instead placing their camera in manual mode, so that each frame has identical exposure settings. But what if the environment brightness is itself changing? Say we start shooting a timelapse just before sunset and we expose the first frame properly. The frames are quickly going to become underexposed as the light level drops: 
+One may try to correct this by instead placing their camera in manual mode, so that each frame has identical exposure settings. But what if the environment brightness itself is changing? Say we start shooting a timelapse just before sunset and we expose the first frame properly. The frames are quickly going to become underexposed as the light level drops: 
 
 <p align="center">
   <img src="/img/drastic.gif">
