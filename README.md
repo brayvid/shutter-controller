@@ -1,7 +1,7 @@
 # Shutter Controller
 
 ## Introduction
-I have long appreciated the art of timelapses. They can reveal motion in the world on timescales that are not normally noticeable like clouds forming and evaporating in the sky or the Earth rotating against the cosmos. In theory, timelapses are simple enough to create: one simply captures a sequence of images and then stitches them together into the frames of a movie using free software. However in practice I have found them tricky to make well.
+I have long appreciated the art of making timelapses. They can reveal motion in the world on timescales that are not normally noticeable like clouds forming and evaporating in the sky or the Earth rotating against the cosmos. In theory, timelapses are simple enough to create: one simply captures a sequence of images and then stitches them together into the frames of a movie using free software. However in practice I have found them tricky to make well.
 
 ## Exposure problem
 In many environments, particularly those I want to record in, the ambient illumination changes during capture. Since I am most interested in making timelapses with a roughly constant apparent brightness, the camera's manual mode is not an option as it doesn't adapt to anything:
