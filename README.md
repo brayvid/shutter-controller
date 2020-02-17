@@ -12,7 +12,10 @@ In many environments, particularly those I want to record in, the ambient illumi
 </p>
 </p>
 </br>
+
 Automatic exposure (AE) mode is also not viable because it causes the frames to flicker jarringly:
+</br>
+
 <p align="center">
   <img src="img/flicker.gif">
   <p align="center">
