@@ -1,4 +1,4 @@
-# Nonlinear Bulb Ramping
+# Shutter Controller
 
 I have long appreciated the art of the timelapse. They can reveal motion in the world on timescales that are not normally perceptible like clouds forming and evaporating in the sky or the rotation of the Earth against the cosmos. In theory timelapses are simple enough to create: one only needs to capture a sequence of images and then stitch them together into the frames of a movie using freely available software. However one must also take the photographic parameters of shutter speed, ISO sensitivity and focal ratio (i.e. f-stop) into account.
 
