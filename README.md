@@ -36,12 +36,12 @@ To shoot well-exposed timelapses around these times I will compensate by using a
 <p align="center">
   <img src="img/shutter.png" width="100%">
   <p align="center">
-   Shutter speed required to maintain a constant image brightness
+   Shutter speed required to maintain a constant image brightness (range: ~15s to ~1/320s)
 </p>
 </p>
 
 ## Intervalometers
-Certain models of intervalometer offer the possibility of varying the shutter speed during the capture sequence, but none offer enough control over how the shutter speed changes. They will only interpolate linearly between given starting and ending speeds, which is much too slow for my purpose.
+Certain models of intervalometer offer the possibility of varying the shutter speed during the capture sequence, but none offer enough control over how the shutter speed changes. They will only interpolate linearly between given starting and ending speeds, which is much too slow for this purpose.
 
 
 ## Custom control
