@@ -14,7 +14,6 @@ The ambient brightness of the environments I want to capture will be continuousl
 </br>
 Automatic exposure (AE) mode isn't an option either because it causes the frames to flicker:
 </br>
-</br>
 <p align="center">
   <img src="img/flicker.gif" width="80%">
   <p align="center">
