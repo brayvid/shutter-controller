@@ -59,5 +59,3 @@ I feed what time I plan to start recording and other parameters into a Python sc
 ```
 
 I then just copy these values into my Arduino script and ensure I start recording at exactly the time I specified.
-
-### Stay tuned for more...
