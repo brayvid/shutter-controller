@@ -276,10 +276,3 @@ len(pauses)==len(shutters)-1
 
     True
 
-
-
-
-```python
-
-```
-
