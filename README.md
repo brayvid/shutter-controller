@@ -50,6 +50,7 @@ I chose to build my own shutter release circuit as it can be operated programmat
 </p>
 </p>
 </br>
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
